@@ -21,7 +21,7 @@ static NSBundle *_@@PROJECTNAME@@WeeAppBundle = nil;
 {
 	if (self = [super init]) {
 		//Custom initialisation
-		_weeView = [[UIView alloc] initWithFrame:(CGRect){CGPointZero, {[self preferredViewSize]}}];
+		_weeView = [[UIView alloc] initWithFrame:(CGRect){CGPointZero, [self preferredViewSize]}];
 		_weeView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 
 		self.view = _weeView;

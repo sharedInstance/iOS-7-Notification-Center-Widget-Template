@@ -13,10 +13,10 @@
     NSString *_widgetidentifier;
 }
 
-@property(readonly) CGSize preferredViewSize;
-@property id<_SBUIWidgetHost> * widgetHost;
-@property(copy) NSString * widgetIdentifier;
-@property int widgetIdiom;
+//@property(readonly) CGSize preferredViewSize;
+//@property id<_SBUIWidgetHost> * widgetHost;
+//@property(copy) NSString * widgetIdentifier;
+//@property int widgetIdiom;
 
 + (id)_exportedInterface;
 + (id)_remoteViewControllerInterface;
