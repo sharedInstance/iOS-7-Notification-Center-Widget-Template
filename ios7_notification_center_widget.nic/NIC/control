@@ -1,9 +1,6 @@
-name "iphone/notification_center_widget"
-prompt NCCENTERSECTION "NCCenter section (Today = SBUIWidgetIdiomNotificationCenterToday | All = SBUIWidgetIdiomNotificationCenter | Missed = ???)" "SBUIWidgetIdiomNotificationCenterToday"
+name "iphone/ios7_notification_center_widget"
+prompt NCSECTION "Widget section (Today = NotificationCenterToday | All = NotificationCenter)" "NotificationCenterToday"
 constrain "control" to package
-
-
-name "iphone/ios7_notificationcenter_widget"
 
 constrain file "control" to package
 constrain "theos" to link_theos
