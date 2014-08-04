@@ -1,5 +1,3 @@
-_**DO NOT USE THIS YET.** Wait for WeeLoader to be updated first._
-
 ## iOS 7 Notification Center Widget nic template
 
 This is a theos template to create a notification center widget, compatible with iOS 7.
